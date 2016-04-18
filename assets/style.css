@@ -1,0 +1,344 @@
+html{
+	height: 100%;
+
+}
+body {
+  
+  padding-top:0; 
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height:100%;
+  margin:0;
+  position: relative;
+}
+#wrapper{
+	padding:0;
+	height:100%;
+}
+#sidehaus{
+	border-right: 2px solid black;
+	height:100%;
+	
+	position:fixed;
+	top:0;
+	padding-bottom: 2%;
+	
+	padding-left: 2%;
+	padding-right: 4%;
+
+}
+#mainhaus{
+	height:100%;
+	
+}
+h1{
+	
+}
+a,a:hover {
+  text-decoration: none;
+  color:black;
+}
+hr{
+	color: black;
+	size:3px;
+}
+
+
+
+#brand{
+	text-align: center;
+	height: 33%;
+	font-size: 3vw;
+}
+
+.navbar-brand{
+
+}
+
+
+
+#socialize{
+	bottom:0;
+	position: absolute;
+}
+
+#mission{
+	font-size: 50pt;
+}
+
+#mission h1{
+	font-size: 5.8vw;
+}
+
+#mission p{
+font-size: 20pt;
+font-weight: 200;
+}
+#ourmission{
+	font-size: 2vw;
+
+}
+
+#foci{
+	position: relative;
+	top:10%;
+}
+#learnmoresubmit{
+	background-color: #408bfb;
+	border-color: black;
+	margin: 2%;
+	padding:1%;
+}
+
+#learnmoreemail{
+	border-radius: 3px;
+	border-color: black;
+	margin:2%;
+	padding:1%;
+	width:70%;
+}
+#navlist{
+	position:fixed;
+	top:30%;
+
+}
+
+.navelement{
+margin-top: 20%;
+margin-bottom: 20%;
+margin-right: 5%;
+margin-left: 5%;
+font-size: 2vw;
+text-align: center;
+border-bottom: 3px solid black;
+border-left: 3px solid black;
+padding-bottom: 2%;
+width:11vw;
+
+}
+.navelement:hover{
+	border-bottom: 3px solid grey;
+}
+.navelement > a{
+	padding: 1%;
+}
+
+.cities{
+	position:absolute;
+	bottom:2%;
+	text-align: center;
+}
+
+.whatwedid{
+	
+}
+.clientbox{
+	background-color: white;
+	border:1px solid black;
+	height:500px;
+	border-radius:2px;
+
+}
+
+.clientwindow{
+	height:90%;
+}
+
+#gbwpimg{
+	width: 100%;
+	position: relative;
+	top: 30%;
+}
+#tzedakahimg,#detximg{
+	width: 100%;
+	position: relative;
+	top: 25%;
+}
+#feedingimg{
+	width:100%;
+	position: relative;
+	top: 40%;
+
+}
+
+.browsercontrol{
+	border-bottom: 1px solid black;
+	width: 100%;
+	margin-bottom: .5%;
+}
+
+#tzedakahwindow{
+	background-color: #f5f5dc;
+}
+#debtxwindow{
+	background-color: black;
+}
+#feedingwindow{
+	
+}
+
+#koolhauslogo{
+	height: 10%;
+	position: relative;
+	left: 48%;
+	margin-left:auto ;
+	margin-right:auto;
+}
+#fatkoolhauslogo{
+	position: relative;
+	margin-left:auto ;
+	margin-right:auto;
+	left:40%;
+	width:30%;
+}
+
+.client{
+	margin-bottom: 5%;
+}
+
+input,textarea{
+	font-size: 28pt;
+	border:1px solid black;
+	border-radius:2px;
+	
+}
+
+textarea{
+	font-size: 14pt;
+}
+
+
+
+
+
+.whitebox{
+	background-color: white;
+	border: 3px solid black;
+	padding: 1%;
+	margin: 3%;
+}
+.whitebox a{
+	text-decoration: none;
+	color: black;
+	padding: 1%;
+}
+.whiteback{
+	background-color: white;
+	padding: 1%;
+	color: black;
+}
+.skinnywhitebox{
+	background-color: white;
+	border: 3px solid black;
+	padding: 1%;
+	margin-bottom: 1%;
+}
+.bluebox{
+	background-color: #408bfb;
+	margin: 3%;
+	z-index: 9;
+	color: white;
+	border: 3px solid black;
+	padding: 1%;
+}
+.bluebox a{
+	text-decoration: none;
+	color: white;
+}
+
+.blueback{
+	background-color: #408bfb;
+	color:white;
+	padding: 1%;
+}
+.skinnybluebox{
+	background-color: #408bfb;
+	border: 3px solid black;
+	padding: 1%;
+	margin-bottom: 1%;
+}
+
+.yellowbox{
+	background-color: #e9fb40;
+	margin: 3%;
+	
+	border: 3px solid black;
+	padding: 1%;
+}
+
+.yellowback{
+	background-color: #e9fb40;
+	color:black;
+	padding: 1%;
+}
+.skinnyyellowbox{
+	background-color: #e9fb40;
+	border: 3px solid black;
+	padding: 1%;
+	margin-bottom: 1%;
+}
+.pinkbox{
+	background-color:#fb408b;
+	margin: 3%;
+	
+	border: 3px solid black;
+	padding: 1%;
+}
+.pinkback{
+	background-color:#fb408b;
+	color:white;
+	padding: 1%;
+}
+.skinnypinkbox{
+	background-color: #fb408b;
+	border: 3px solid black;
+	padding: 1%;
+	margin-bottom: 1%;
+}
+.greenbox{
+	background-color:#40fbb0;
+	margin: 3%;
+	z-index: 9;
+	border: 3px solid black;
+	padding: 1%;
+}
+.greenback{
+	background-color:#40fbb0;
+	color:white;
+	padding: 1%;
+}
+.goldbox{
+	background-color: #fbb040;
+	margin: 3%;
+	z-index: 9;
+	padding:1%;
+	border: 3px solid black;
+}
+.practicesback{
+	background-color: #40fbb0;
+}
+button.arrow{
+	background-color: white;
+	border:2px solid black;
+	border-radius: 2px;
+	color: black;
+}
+.navarrow{
+	font-size: 40px;
+}
+.navbar-default{
+	background-color: white;
+	border: 2px solid black;
+	margin-top: 2%;
+	margin-bottom: 1%;
+}
+.job{
+	border:3px solid #000000;
+	margin:2%;
+	padding:2%;
+}
+footer{
+	border: 2px solid black;
+	height: 10%;
+	padding:1%;
+	margin:1%;
+}
