@@ -1,29 +1,8 @@
 ---
 layout: default
 ---
-        <!--sidehaus partial-koolhaus-->
-        <div class="col-md-2 col-sm-2 hidden-sm hidden-xs" id="sidehaus">
-            <a href="/"><img id="koolhauslogo" src=
-            "images/koolhausLogo.png"></a>
-            <div class="h1" id="brand">
-                <a href="/">koolhaus</a>
-            </div>
-            <div id="navlist">
-                <div class="navelement">
-                    <a href="/clients">clients</a>
-                </div><br>
-                <div class="navelement">
-                    <a href="/practices">practices</a>
-                </div><br>
-                <div class="navelement">
-                    <a href="/contact">contact</a>
-                </div>
-            </div>
-            <div class="cities">
-                Detroit • San Francisco<br>
-                Ann Arbor • DC • Nairobi
-            </div>
-        </div>
+                {% include /sidehaus.html %}
+        {% include /tophaus.html %}
         <div class="col-md-9 col-md-offset-2" id="mainhaus">
             <div class="row">
                 <div class="col-md-12 bluebox">
